@@ -4,6 +4,7 @@
   "description": "Resolve aliases in js/ts files",
   "main": "lib/index.js",
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc",
     "lint": "tslint --project ./"
   },
