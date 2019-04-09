@@ -45,7 +45,7 @@ export class AliasResolver
         return substr;
       }
 
-      relativeModule = relativeModule.replace('../', '');
+      relativeModule = relativeModule.replace('../', './');
 
       return substr.replace(moduleId, relativeModule);
     });
